@@ -1,0 +1,27 @@
+Package: documentoR
+Type: Package
+Title: AI-powered Project Documentation for R
+Version: 0.1.0
+Authors@R: person(given = "Lazaro", family = "Alvarez", email = "you@example.org", role = c("aut", "cre"))
+Description: Scan an R project, summarize files using an LLM (via ellmer or a user-supplied chat function), and generate per-file markdown, an index.json, and a README.md. Designed for safe, repeatable documentation runs and easy CI integration.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+Imports:
+    fs,
+    purrr,
+    tibble,
+    dplyr,
+    readr,
+    stringr,
+    jsonlite,
+    glue
+Suggests:
+    ellmer,
+    testthat,
+    knitr
+URL: https://github.com/<your-org>/documentoR
+BugReports: https://github.com/<your-org>/documentoR/issues
