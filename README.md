@@ -1,4 +1,4 @@
-# documentoR
+# documentoR <a href="https://github.com/MDRCNY/documentoR"><img src="img/image.png" alt="documentoR hex logo" align="right" height="138"/></a>
 
 AI-assisted documentation for R projects — scan a project, summarize each file using an LLM (e.g. via **ellmer**), and generate machine- and human-friendly documentation (per-file markdown, `index.json` and/or a single combined `documentation.md` plus an auto-generated `README.md`).
 
